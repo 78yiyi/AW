@@ -14,7 +14,7 @@ do {
 function Pulsar() {
 
     var name=document.getElementById("nombre").value;
-    var msg="Tu nombre es " +name;
+    var msg="Tu nombrE es " +name;
     document.getElementById("JS-Container").textContent = msg;
 }
 
