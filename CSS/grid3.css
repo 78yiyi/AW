@@ -1,0 +1,40 @@
+.container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 1fr 50px ;
+    min-height: 100vh;
+    grid-template-areas: " header header header"
+                        "aside main main"
+                        "aside main main"
+                        "footer footer footer"
+    ;
+}
+
+.container header{
+    background-color: lightcoral;
+    grid-area: header;
+}
+.container aside{
+    background-color: darkkhaki;
+    grid-area:aside;
+}
+.container main{
+    background-color: darkcyan;
+    grid-area:main;
+}
+.container footer{
+    background-color: lightslategrey;
+    grid-area:footer;
+}
+
+@media(width<400px){
+    .container{
+        grid-template-areas: " header header aside"
+                            "main main main"
+                            "main main main"
+                            "footer footer footer"
+        ;
+    }
+
+
+}

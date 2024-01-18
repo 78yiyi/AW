@@ -1,0 +1,87 @@
+*{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(4,1fr);
+    min-height: 100vh;
+    border: solid 2px;
+    gap: 2px;
+    grid-template-areas: 
+    "d1 d2 d2 d3 d3 d4"
+    "d5 d2 d2 d3 d3 d6"
+    "d7 d8 d9 d3 d3 d10"
+    "d11 d11 d11 d3 d3 d12 "
+    ;
+    text-align: center;
+    
+}
+
+
+
+section .d1{
+    background-color: red;
+    grid-area: d1;
+
+}
+section .d2{
+    background-color: palevioletred;
+    grid-area: d2;
+}
+section .d3{
+    background-color: lightsalmon;
+    grid-area: d3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.4em;
+    font-weight: bold   ;
+
+}
+section .d4{
+    background-color: gold;
+    grid-area: d4;
+
+}
+section .d5{
+    background-color: green;
+    grid-area: d5;
+
+}
+section .d6{
+    background-color: lightskyblue;
+    grid-area: d6;
+
+}
+section .d7{
+    background-color: lightgreen;
+    grid-area: d7;
+
+}
+section .d8{
+    background-color: green;
+    grid-area: d8;
+
+}
+section .d9{
+    background-color: lightcyan;
+    grid-area: d9;
+
+}
+section .d10{
+    background-color: darkcyan;
+    grid-area: d10;
+
+}
+section .d11{
+    background-color: blue;
+    grid-area: d11;
+
+}
+section .d12{
+    background-color: red;
+    grid-area: d12;
+
+}

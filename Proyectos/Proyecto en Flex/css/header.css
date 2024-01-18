@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+
+    padding: 60px;
+    text-align: center;
+    background-image: url("../img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header div{
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+header div h1{
+    font-size: 40px;
+    margin: 0 0 10px;
+}

@@ -1,0 +1,30 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+.contenedor{
+    height: 400px;
+    width: 400px;
+    background-color:darkblue;
+    position: absolute;
+
+}
+.box_rojo{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+}
+
+.box_verde{
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 20;
+}

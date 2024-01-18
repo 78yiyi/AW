@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Flex_Container{
+    background-color: darkolivegreen;
+    display: flex;
+    margin: 10px 10px;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.Flex_Container > div{
+
+    background-color: antiquewhite;
+    height: 100px;
+    width: 200px;
+    margin: 10px 10px;
+    
+}

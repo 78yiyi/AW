@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+.Flex-Container{
+    display: flex;
+    flex-direction: ;
+    align-items: center;
+    background-color: burlywood;    
+    padding: 10px;
+    border: solid 2px black;
+    justify-content:space-around
+}
+
+.Flex-Container div{
+    background-color: gainsboro;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    border: solid 2px black;
+
+}
+
+#div1{
+    flex: 10%;
+}
+#div2{
+    flex: 20%;
+}
+#div3{
+    flex: 30%;
+}

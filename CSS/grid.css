@@ -1,0 +1,25 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);  
+    grid-template-rows: minmax(100px,auto);
+    gap: 10px;
+
+}
+.grid div{
+    background-color:darkgray;
+    padding: 10px;
+}
+.grid div:hover{
+    border: gold 2px solid;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1em;
+}
+.grid2 > div{
+    background-color: cadetblue;
+}
+.grid2 > div:hover{
+    border: solid 2px black;
+}
