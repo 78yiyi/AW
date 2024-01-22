@@ -10,7 +10,7 @@ do {
 /* document.getElementById('Boton').addEventListener('click', function() {
     mostrarDatos();
 }); */
-
+/* */
 function Pulsar() {
 
     var name=document.getElementById("nombre").value;
@@ -18,4 +18,10 @@ function Pulsar() {
     document.getElementById("JS-Container").textContent = msg;
 }
 
+let elements=document.querySelectorAll("li");
+let tam=20;
 
+for (let i of elements){
+    tam+=5;
+    i.style.fontSize=tam+"px";   
+}
