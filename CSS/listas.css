@@ -1,0 +1,23 @@
+ul{
+    list-style-type: "\1F929";
+}
+
+figure{
+}
+
+figure img{
+    padding: 5px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow:  5px 5px 10px #999;
+    -webkit-transition: -webkit-transform 0.3s ease-in-out 0.1s;
+}
+figure img:hover{
+    -webkit-transform: scale(1.2);
+
+}
+
+
+figure figcaption{
+    text-align: center;
+}
