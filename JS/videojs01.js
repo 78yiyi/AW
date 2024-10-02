@@ -1,4 +1,4 @@
-/* for (let i = 10; i > 0; i--) {
+/* for (let i = 11; i > 0; i--) {
     alert(i);    
 } */
 
@@ -10,12 +10,18 @@ do {
 /* document.getElementById('Boton').addEventListener('click', function() {
     mostrarDatos();
 }); */
-
+/* */
 function Pulsar() {
 
     var name=document.getElementById("nombre").value;
-    var msg="Tu nombre es " +name;
+    var msg="Tu nombrE es " +name;
     document.getElementById("JS-Container").textContent = msg;
 }
 
+let elements=document.querySelectorAll("li");
+let tam=20;
 
+for (let i of elements){
+    tam+=5;
+    i.style.fontSize=tam+"px";   
+}
