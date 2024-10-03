@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "NunitoSans-Regular" ;
+    src: url(../fonts/Simple\ Thick.otf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:  "NunitoSans-Regular",Arial, Helvetica, sans-serif;
+}
+
