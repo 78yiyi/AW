@@ -1,0 +1,31 @@
+figure {
+    float: left;
+}
+
+
+figure img {
+    padding: 10px;
+    background-color: grey;
+    border-radius: 10px;
+    height: 300px;
+    width: 200px;
+    box-shadow: 10px 10px 10px #999;
+    -webkit-transition: -webkit-transform 0.1s ease-in-out 2s;
+
+}
+figure img:hover{
+
+    -webkit-transform: scale(1.2);
+}
+
+
+
+
+figure figcaption {
+    font-size: 1.4em;
+    text-align: center;
+}
+
+#yellow img:hover{
+    background-color: yellow;
+}
