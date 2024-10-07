@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/form.css">
+</head>
+<body>
+    <!-- Atributs nuevos: required, multiple, autofocus,  -->
+    <section>
+        <form name="Form" id="Form" method="get" autocomplete="on">
+            <fieldset>
+                <legend id="Mylegend">
+                    Formulario de contacto
+                </legend>
+
+                <datalist id="information">
+                    <option value="Hombre" ></option>
+                    <option value="Mujer" ></option>
+                </datalist> 
+
+                Nombre completo: &nbsp; &nbsp;
+                <input id="TextFieldName" type="text" > <br><br>
+                Email: &nbsp; &nbsp;
+                <input id="EmailFieldName" type="email"  required> <br><br>
+                Edad:&nbsp; &nbsp;<input id="AgeField" autofocus type="number" min="18" max="100"> <br><br>
+                Sexo:&nbsp; &nbsp;<input type="tel" name="tel" id="SexField" list="information"><br><br>
+
+                <label id="HobbiesLabel"> Gustos:</label> <br>
+                <input type="checkbox"> Deportes <br>
+                <input type="checkbox"> Cine <br>
+                <input type="checkbox"> Música <br>
+                <input type="checkbox"> VideoJuegos <br><br>
+
+
+
+                <input type="submit" id="SendButton" value="Envia Datos"><br><br> 
+
+
+            </fieldset>
+
+        
+        </form>
+
+    </section>
+
+    
+</body>
+</html>

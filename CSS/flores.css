@@ -1,0 +1,76 @@
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    background: -webkit-linear-gradient(top, #00F, #0CF);
+    width: 45%;
+    text-align: center;
+    margin: 15px auto;
+    border-radius: 10px;
+    color: #FFF;
+    box-shadow: #00F 2px 2px 5px;
+    text-shadow: #FFF 2px 2px 5px;
+}
+section{
+
+    width: 100%;
+    border-top: 1px dashed #999;
+    margin: 15px auto;
+}
+
+figure{
+    float:left ;
+}
+figure img{
+    padding: 5px;
+    background-color: #666;
+    border-radius: 10px;
+    -webkit-transition: -webkit-transform 0.3s ease-in-out 0.1s;
+    box-shadow: 2px 2px 10px #666;
+
+}
+
+figure img:hover{
+    -webkit-transform: scale(1.2);
+
+}
+figcaption{
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 25px;
+}
+footer{
+    clear: both;
+    font-size: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* font-family:Arial, Helvetica, sans-serif;
+font-size: 2em;
+background: -webkit-linear-gradient(top, #00F, #0CF);
+width:35%;
+border-radius:10px;
+margin: 15px auto; el primero es para arriba y abajo y el otro izda y dcha, y quiero que lo centre
+text-align: center;
+padding: 15px;
+color: #FFF;
+box-shadow: #00F 5px 5px 10px;
+text-shadow: #FFF 2px 2px 5px; */

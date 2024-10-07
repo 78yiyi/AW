@@ -1,0 +1,34 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1em;
+}
+.container > div{
+    &:nth-child(even){
+        background-color: aqua;
+    }
+
+    &:nth-child(odd){
+        background-color:bisque;
+    }
+    
+    &:nth-child(4){
+background-color:blueviolet;        
+    }
+    
+}
+.container > div:hover{
+    border: solid 5px gold;
+}
+.container2{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.container2>div{
+    background-color: black;
+    color: aliceblue;
+}
+.container2>div:hover{
+    border: solid 5px red;
+}

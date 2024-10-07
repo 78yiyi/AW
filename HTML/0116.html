@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #JS-Container {
+            border: solid 2px black;
+            width: 40%;
+            height: 100px;
+            margin: auto;
+            background-color: aqua;
+        }
+    </style>
+
+
+    <script src="../JS/0116.js"></script>
+</head>
+
+<body>
+    <section>
+        <form name="Form" id="Form" method="get">
+            <!-- <input type="text" name="campo1" id="TextField"> -->
+            <fieldset>
+                <legend id="Mylegend">
+                    Formulario de contacto
+                </legend>
+
+                <!-- username:&nbsp;<input type="text"  id="UserNameField" ><br><br>
+                Edad:&nbsp;<input type="number" id="AgeField" min="0" max="100" step="1" ><br><br> -->
+                Numero:&nbsp;<input type="text" id="NumberField"><br><br>
+                <input type="button" value="Envia Datos" onclick="EnviarDatos()"><br><br>
+            </fieldset>
+
+
+        </form>
+        <br><br>
+        <div id="JS-Container">
+
+
+        </div>
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    font-size: 0.8em;
+} */
+/*Ejercicio 1*/
+#form{
+    width: 30%;
+    margin: auto;
+}
+#Mylegend{
+    background-color: aqua;
+    border: solid 2px rgb(83, 156, 211);
+}
+.container1{
+    width: 100%;
+    border: solid 3px rgb(88, 156, 196);
+    height: 200px;
+    background-color: rgba(200, 200, 238,0.5);
+}
+.header1{
+    width: 100%;
+    color: white;
+    background-color: rgba(121, 121, 241,0.5);  
+    font-weight: bold; 
+    padding: 2px; 
+}

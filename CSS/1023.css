@@ -1,0 +1,63 @@
+a{
+   text-decoration: none; 
+
+}
+table{
+    border-collapse: collapse;
+
+    width: 70%;
+    height: 500px;
+    margin: auto;
+}
+
+table tr,td{
+    border: solid 2px black;
+}
+table tr{
+    height: 50px;
+}
+.td1{
+    text-align: center;
+    vertical-align: middle;
+
+}
+.td2{
+    text-align: right;
+    vertical-align: top;
+
+}
+.td3{
+    background-color: grey;
+    color: white;
+}
+figure{
+    float: left;
+}
+
+figure img{
+    background-color: blue;
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+}
+figure figcaption{
+    text-align: center;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+.boton{
+    border-radius: 20px;
+    clear: both;
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    
+
+
+}
+.boton:hover{
+    background-color: gold;
+}
+
+
+

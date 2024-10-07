@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="../JS/Formularioclase.js"></script>
+</head>
+<body>
+    <!-- Atributs nuevos: required, multiple, autofocus,  -->
+    <section>
+        <form name="Form" action="mailto:lparra@lasallegrinon.es" id="Form" method="post" autocomplete="off" enctype="text/plain">
+            <!-- <input type="text" name="campo1" id="TextField"> -->
+            <fieldset>
+                <legend id="Mylegend">
+                    Formulario de contacto
+                </legend>
+
+                 <datalist id="information">
+                    <option value="956432345" label="Telefono1"></option>
+                    <option value="952892345" label="Telefono2"></option>
+                    <option value="956732345" label="Telefono3"></option>
+                </datalist>  
+
+                <label id=emailLabel>Email:</label>&nbsp;<input type="email" name="email" id="EmailField" required><br><br>
+                URL:&nbsp;<input type="url" name="url" id="URLField"><br><br>
+                Buscar:&nbsp;<input type="search" name="search" id="SearchField"><br><br>
+                Edad:&nbsp;<input type="number" min="0" max="100" step="2" placeholder="múltiplos de ..."><br><br>
+               <input type="range" name="Satisf" id="SatisField" min="0" max="100"><br><br>
+              Puedes poner month, day, time, datetime.. 
+                 <input type="date" name="date" id="DateField"><br><br>
+                <input type="tel" name="tel" id="PhoneField" list="information"><br><br>
+                Hombre&nbsp;<input type="radio" name="sex">&nbsp;Mujer&nbsp;<input type="radio" name="sex2">
+                <input type="submit" value="Envia Datos" onclick="PulsarBoton()" ><br><br> 
+            </fieldset>
+
+        
+        </form>
+
+    </section>
+
+    
+</body>
+</html>

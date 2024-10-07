@@ -1,0 +1,40 @@
+nav{
+    background-color: #ff00bf;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.a_nav{
+    display: inline-block;
+    background-color: #0040ff	;
+    color: #ffffff;
+    padding: 5px;
+    text-decoration: none;
+}
+.a_nav:hover{
+    background-color: #ffff00;
+    color: black;
+}
+
+@media (max-width: 1000px) {
+    nav{
+        background: #000000;
+        flex-direction: column;
+   
+    }
+    
+    .a_nav{
+        background-color: #ff0000	;
+        color: #ffffff;
+        margin-top: 2px;
+        margin-bottom: 2px;        
+
+    }
+  }
+/*  {
+
+
+} */
+

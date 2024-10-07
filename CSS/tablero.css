@@ -1,0 +1,23 @@
+.container{
+    max-height: 1200px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+    gap: 5px;
+    background-color: burlywood;
+    border: solid 3px black;
+    padding: 5px;
+
+}
+
+.container>div{
+    border: solid 1px black;
+    height: 100px;
+    &:nth-child(even){
+        background-color: white;
+    }
+    &:nth-child(odd){
+        background-color: black;
+    }
+
+}
