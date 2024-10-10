@@ -1,0 +1,13 @@
+body{
+    background-color: burlywood;
+}
+
+#Myform{
+    width: 60%;
+    margin: auto;
+}
+
+#Myform legend{
+    background-color: black;
+    color: whitesmoke;
+}
