@@ -11,3 +11,8 @@ body{
     background-color: black;
     color: whitesmoke;
 }
+
+#NameField{
+    field-sizing: content;
+    min-width:100% ;
+}
