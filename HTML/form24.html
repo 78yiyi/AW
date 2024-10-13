@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/form24.css">
+</head>
+
+<body>
+
+    <form id="Myform" method="post" autocomplete="on">
+        <fieldset>
+            <legend>Formulario de contacto</legend>
+            Nombre completo: &nbsp; &nbsp;  
+            
+            <datalist id="CityField">
+                <option value="Madrid" ></option>
+                <option value="Barcelona" ></option>
+                <option value="Almería" ></option>
+            </datalist>             
+ 
+            <input id="NameField" type="text" size="10px" required placeholder="holi" > <br><br>
+            Edad: &nbsp;&nbsp;
+            <input id="AgeField" type="number" min="16" max="65" step="2"><br><br>
+            Email: &nbsp;&nbsp;
+            <input id="EmailField" type="email"><br><br>
+            <label id="HobbiesLabel"> Gustos:</label> <br>
+            <input type="checkbox"> Deportes <br>
+            <input type="checkbox"> Cine <br>
+            <input type="checkbox"> Música <br>
+            <br>
+
+            sexo: <br><br>
+            <input type="radio" name="sex">Varón 
+            <input type="radio" name="sex">Mujer <br><br>
+            <br><br>
+            Ciudades:&nbsp; &nbsp;<input list="CityField"  id="CityField"><br><br>
+
+
+
+
+
+           <input id="SubmitField" type="submit" value="Pulsa aquí"> <br><br>
+           <input id="ResetField" type="reset" value="Borra">            
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
