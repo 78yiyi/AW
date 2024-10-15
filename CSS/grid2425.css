@@ -1,0 +1,18 @@
+.GridContainer{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 20% 60% 20%;
+    gap: 10px;
+    height: 100vh;
+
+}
+
+.GridContainer div{
+
+    border: solid 2px black;
+
+}
+.GridContainer div:hover{
+    border: gold 2px solid;
+}
