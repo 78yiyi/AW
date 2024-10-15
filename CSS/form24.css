@@ -2,9 +2,15 @@ body{
     background-color: burlywood;
 }
 
+label{
+    font-weight: 700;
+}
 #Myform{
     width: 60%;
     margin: auto;
+    border: solid 4px black;
+    border-radius: 10px;
+    background-color: aquamarine;
 }
 
 #Myform legend{
@@ -12,7 +18,19 @@ body{
     color: whitesmoke;
 }
 
+input::-webkit-input-placeholder { 
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    font-size: 10px; 
+  }
+
 #NameField{
     field-sizing: content;
     min-width:100% ;
+    line-height: 100px;
+}
+#MessageField{
+    min-width: 100%;
+    line-height: 100px;
 }
