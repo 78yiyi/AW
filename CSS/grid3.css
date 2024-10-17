@@ -1,6 +1,6 @@
 .container{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 100px 1fr 1fr 50px ;
     min-height: 100vh;
     grid-template-areas: " header header header"
@@ -27,7 +27,8 @@
     grid-area:footer;
 }
 
-@media(width<400px){
+
+@media (width<400px){
     .container{
         grid-template-areas: " header header aside"
                             "main main main"
