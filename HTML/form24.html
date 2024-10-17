@@ -12,17 +12,18 @@
 
     <form id="Myform" method="post" autocomplete="on">
         <fieldset>
-            <legend>Formulario de contacto</legend>
-            Nombre completo: &nbsp; &nbsp;  
+  
             
-            <datalist id="CityField">
-                <option value="Madrid" ></option>
-                <option value="Barcelona" ></option>
-                <option value="Almería" ></option>
+            <datalist id="MattersField">
+                <option value="aaaa" ></option>
+                <option value="bbb" ></option>
+                <option value="ccc" ></option>
             </datalist>             
  
-            <input id="NameField" type="text" size="10px" required placeholder="holi" > <br><br>
-            Edad: &nbsp;&nbsp;
+  
+            <label>Escribe tu mensaje </label>
+            <input type="text" id="MessageField" placeholder="Escribe tu mensaje">
+            Edad: &nbsp;&nbsp;<br><br>
             <input id="AgeField" type="number" min="16" max="65" step="2"><br><br>
             Email: &nbsp;&nbsp;
             <input id="EmailField" type="email"><br><br>
@@ -36,7 +37,7 @@
             <input type="radio" name="sex">Varón 
             <input type="radio" name="sex">Mujer <br><br>
             <br><br>
-            Ciudades:&nbsp; &nbsp;<input list="CityField"  id="CityField"><br><br>
+            <label>Ciudades:</label>&nbsp; &nbsp;<input list="MattersField"  id="MattersField"><br><br>
 
 
 
