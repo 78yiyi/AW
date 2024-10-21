@@ -38,3 +38,15 @@
 
 
 }
+
+@media (width<900px){
+    .container{
+        grid-template-areas: " header header aside"
+                            "main main main"
+                            "main main main"
+                            "footer footer footer"
+        ;
+    }
+
+
+}
