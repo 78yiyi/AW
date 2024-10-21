@@ -27,7 +27,7 @@
     grid-area:footer;
 }
 
-@media(width<400px){
+@media(width<800px){
     .container{
         grid-template-areas: " header header aside"
                             "main main main"
