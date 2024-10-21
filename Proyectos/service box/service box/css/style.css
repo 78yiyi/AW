@@ -44,7 +44,6 @@
 
 .container .box-container .box img{
     height: 80px;
-    max-width:20%;
     object-fit: contain; 
 }
 
