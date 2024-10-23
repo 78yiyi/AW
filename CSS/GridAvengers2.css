@@ -1,0 +1,18 @@
+body{
+}
+
+.Container{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    gap: 30px;
+}
+
+.movie-poster > img{
+
+    width: 100%;    
+    height: auto; 
+    border-radius: 5%;
+    box-shadow: 0px 0px 30px #000;
+
+}
