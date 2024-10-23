@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: 1s linear;
+}
+
+.Container {
+    padding:15px 9%;
+    background: linear-gradient(45deg, blueviolet, lightgreen);
+    padding-left: 50px;
+    padding-bottom: 100px;
+
+}
+.TitleContainer {
+    color: white;
+    text-align: center;
+    font-size: 1.8em;
+    padding: 10px;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+
+}
+.CardCollection{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 15px;
+
+}
+.Container .CardCollection .Card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:30px 20px;
+    background-color: white;
+    border-radius: 5px;
+        
+}
+
+.Container .CardCollection .Card:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+
+
+
+.CardCollection .Card img{
+    height: 80px;
+    object-fit: contain;
+}
+
+.CardCollection .Card h3{
+
+    padding-top: 10px;
+}
+.CardCollection .Card p{
+    height: 80px;
+    object-fit: contain;
+}
+
+.CardCollection .Card .btn{
+    margin-top: 10px;
+    background:#333;
+    color:#fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}

@@ -60,12 +60,13 @@
 }
 
 .container .box-container .box .btn{
-    margin-top: 10px;
+    margin-top: 40px;
     background:#333;
     color:#fff;
     font-size: 17px;
     border-radius: 5px;
     padding: 8px 25px;
+    top: 10px;
 }
 
 .container .box-container .box .btn:hover{
