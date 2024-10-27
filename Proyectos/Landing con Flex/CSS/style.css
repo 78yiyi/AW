@@ -1,26 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-/* Reset */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-/* Main Styling */
 html,
 body {
-  font-family: "Roboto", sans-serif;
+
+  font-family: "Roboto", serif;
   color: rgba(255, 255, 255, .7);
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1em;
   margin: 10px 0;
   line-height: 1.7em;
 }
 
-/* Utility Classes */
 .container {
   max-width: 1100px;
   margin: 0 auto;
@@ -36,7 +35,7 @@ p {
 }
 
 .display-1 {
-  font-size: 4rem;
+  font-size: 4em;
 }
 
 .btn {
@@ -58,7 +57,7 @@ p {
 form input {
   width: 300px;
   padding: 7px 12px;
-  font-size: 1rem;
+  font-size: 1em;
   line-height: 1.5;
   color: rgba(255, 255, 255, .7);
   background: transparent;
@@ -66,7 +65,6 @@ form input {
   border-radius: 4px;
 }
 
-/* Main */
 main {
   background: url('../images/background.jpg');
   background-repeat: no-repeat;
