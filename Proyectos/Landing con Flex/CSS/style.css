@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+
+  font-family: "Roboto", serif;
+  color: rgba(255, 255, 255, .7);
+}
+
+p {
+  font-size: 1em;
+  margin: 10px 0;
+  line-height: 1.7em;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.large {
+  font-size: 20px;
+}
+
+.small {
+  font-size: 12px;
+}
+
+.display-1 {
+  font-size: 4em;
+}
+
+  .btn {
+    background: #096c00;
+    color: #fff;
+    border: none;
+    padding: 12px 23px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 4px;
+  }
+
+.btn:hover {
+  color: #71ae6b;
+}
+
+form input {
+  width: 300px;
+  padding: 7px 12px;
+  font-size: 1em;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, .7);
+  background: transparent;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+main {
+  background: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+main h1 {
+  color: #fff;
+}
+
+main p {
+  width: 70%;
+  padding-bottom: 15px;
+}
+
+/* Footer */
+.footer a {
+  color: rgba(255, 255, 255, .7);
+  padding-right: 10px;
+}
+
+/* REsponsive */
+@media(max-width: 768px) {
+  main p {
+    width: 100%;
+  }
+}

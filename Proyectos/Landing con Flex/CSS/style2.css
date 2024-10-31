@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: "Roboto", serif;
+    color: rgba(255, 255, 255, .7);
+
+}
+main{
+    background-image: url(../images/background.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.Container{
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 0 30px;
+}
+
+.Logo_Text{
+    font-size: 4em;
+}
+.btn {
+    background: #096c00;
+    color: #fff;
+    border: none;
+    padding: 12px 23px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 4px;
+  }
