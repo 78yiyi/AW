@@ -2,22 +2,43 @@ nav{
     background-color: #ff00bf;
     padding: 10px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: ROW;
+    justify-content:space-around;
+
+}
+main{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    gap: 20px;
+    padding: 20px;
 
 }
 
 .a_nav{
-    background-color: #0040ff	;
     color: #ffffff;
     padding: 5px;
     text-decoration: none;
+    font-size: 1.3em;
 }
 .a_nav:hover{
     background-color: #ffff00;
     color: black;
 }
 
-@media (max-width: 1000px) {
+table{
+    width: 100%;
+    height: 100vh;
+    border: solid 2px black;
+   border-collapse: collapse;
+}
+table tr td{
+    border: solid 2px black;
+   border-collapse: collapse;
+
+}
+
+@media (max-width: 760px) {
     nav{
         background: #000000;
         flex-direction: column;
