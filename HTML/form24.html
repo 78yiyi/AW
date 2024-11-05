@@ -1,53 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../CSS/form24.css">
+    <link rel="stylesheet" href="../CSS/form24.css" />
 </head>
 
 <body>
-
     <form id="Myform" method="post" autocomplete="on">
-        <fieldset>
-  
-            
-            <datalist id="MattersField">
-                <option value="aaaa" ></option>
-                <option value="bbb" ></option>
-                <option value="ccc" ></option>
-            </datalist>             
- 
-  
-            <label>Escribe tu mensaje </label>
-            <input type="text" id="MessageField" placeholder="Escribe tu mensaje">
-            Edad: &nbsp;&nbsp;<br><br>
-            <input id="AgeField" type="number" min="16" max="65" step="2"><br><br>
-            Email: &nbsp;&nbsp;
-            <input id="EmailField" type="email"><br><br>
-            <label id="HobbiesLabel"> Gustos:</label> <br>
-            <input type="checkbox"> Deportes <br>
-            <input type="checkbox"> Cine <br>
-            <input type="checkbox"> Música <br>
-            <br>
+    <fieldset>
+        <datalist id="MattersField">
+        <option value="aaaa"></option>
+          <option value="bbb"></option>
+          <option value="ccc"></option>
+        </datalist>
 
-            sexo: <br><br>
-            <input type="radio" name="sex">Varón 
-            <input type="radio" name="sex">Mujer <br><br>
-            <br><br>
-            <label>Ciudades:</label>&nbsp; &nbsp;<input list="MattersField"  id="MattersField"><br><br>
+        <label>Escribe tu mensaje </label>
+        <input type="text" id="MessageField" placeholder="Escribe tu mensaje" />
+        Edad: &nbsp;&nbsp;<br /><br />
+        <input
+          id="AgeField"
+          type="number"
+          min="16"
+          max="65"
+          step="2"
+        /><br /><br />
+        Email: &nbsp;&nbsp;
+        <input id="EmailField" type="email" /><br /><br />
+        <label id="HobbiesLabel"> Gustos:</label> <br />
+        <input type="checkbox" /> Deportes <br />
+        <input type="checkbox" /> Cine <br />
+        <input type="checkbox" /> Música <br />
+        <br />
 
+        sexo: <br /><br />
+        <input type="radio" name="sex" />Varón
+        <input type="radio" name="sex" />Mujer <br /><br />
+        <br /><br />
+        <label>Ciudades:</label>&nbsp; &nbsp;<input
+          list="MattersField"
+          id="MattersField"
+        /><br /><br />
 
-
-
-
-           <input id="SubmitField" type="submit" value="Pulsa aquí"> <br><br>
-           <input id="ResetField" type="reset" value="Borra">            
-        </fieldset>
+        <input id="SubmitField" type="submit" value="Pulsa aquí" /> <br /><br />
+        <input id="ResetField" type="reset" value="Borra" />
+      </fieldset>
     </form>
-
-</body>
-
+  </body>
 </html>
