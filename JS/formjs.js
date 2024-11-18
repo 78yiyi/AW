@@ -7,6 +7,7 @@ btn.addEventListener('click',() => {
 
 function ShowName(){
     /*alert("Entró");*/
+<<<<<<< HEAD
     const name=document.getElementById("NameField").value;
     document.getElementById("Result").innerHTML="<H1>"+name.value+"</H1>";
     //document.getElementById("Result").textContent=name;
@@ -19,4 +20,9 @@ function ShowName(){
     while (c) {
         c=confirm("Deseas seguir");
     }    
+=======
+    let name=document.getElementById("NameField").value;
+    document.getElementById("Result").textContent=name;
+    document.getElementById("Result").innerHTML=`<H1>Hola<H1>`;
+>>>>>>> abc54b302e3f589b6c9ab4e9612b242e5191c8ab
 }
