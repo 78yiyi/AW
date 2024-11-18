@@ -4,19 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="../JS/formjs.js"></script>
+    <style>
+        h1{
+            background-color: chocolate;
+            color: aliceblue;
+            text-align: center;
+        }
+    </style>
 
 </head>
 <body>
     <form id="MyForm" method="get"> 
         Nombre &nbsp;
         <input type="text" id="NameField">
-
-        <input type="button" value="Aceptar" onclick="ShowName()">
+        
+        <input id="btnSubmit" type="button" value="Aceptar" > 
     </form>
     <div id="Result">
 
     </div>
+
+    <script src="../JS/formjs.js"></script>
 
 </body>
 </html>
