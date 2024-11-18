@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            padding: 5px;
+        }
+        #Capa{
+            width: 100%;
+            height: 100px;
+            border: solid 2px black;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="NameField"> <br><br>
+    <input type="button" id="H1Btn" value="Escribe" onclick="SetH1()"> <br><br>
+    <input type="button" id="BlueBtn" value="AZUL" onclick="ChgBlue()"> <br><br>
+    <input type="button" id="RedBtn" value="ROJO" onclick="ChgRed()"> <br><br>
+    <input type="button" id="GreenBtn" value="VERDE" onclick="ChgGreen()"> <br><br>
+
+<div id="Capa"></div>
+
+<script>
+function ChgBlue() {
+    document.getElementById("Capa").style.backgroundColor="blue";
+}
+
+function ChgRed() {
+    document.getElementById("Capa").style.backgroundColor="red";
+    
+}
+
+function ChgGreen() {
+    document.getElementById("Capa").style.backgroundColor="green";
+    
+}
+
+function SetH1() {
+    let name=document.getElementById("NameField").value;
+    document.getElementById("Capa").innerHTML="<H1>Tu nombre es "+name+"</H1>";
+}
+
+
+</script>
+</body>
+</html>
