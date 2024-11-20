@@ -23,12 +23,16 @@
     <input type="button" id="BlueBtn" value="AZUL" onclick="ChgBlue()"> <br><br>
     <input type="button" id="RedBtn" value="ROJO" onclick="ChgRed()"> <br><br>
     <input type="button" id="GreenBtn" value="VERDE" onclick="ChgGreen()"> <br><br>
+    
+    
+    
 
 <div id="Capa"></div>
 
 <script>
 function ChgBlue() {
     document.getElementById("Capa").style.backgroundColor="blue";
+    
 }
 
 function ChgRed() {
@@ -45,6 +49,7 @@ function SetH1() {
     let name=document.getElementById("NameField").value;
     document.getElementById("Capa").innerHTML="<H1>Tu nombre es "+name+"</H1>";
 }
+
 
 
 </script>
