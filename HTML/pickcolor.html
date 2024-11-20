@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="../JS/pickcolor.js"></script>
-    <style>
-        div{
-            width: 100%;
-            height: 50px;
-        }
-    </style>
-</head>
-<body>
-    <form action="">
-        RED &nbsp;
-        <input type="text"  id="RedField"> <br><br>
-        BLUE &nbsp;
-        <input type="text"  id="BlueField"> <br><br>
-        GREEN &nbsp;
-        <input type="text"  id="GreenField"> <br><br>
 
-        <input type="button" value="Captura Color" onclick="ChgColor()">
-    </form>
-    <div id="ColorDiv"></div>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/pickcolor.css">
+</head>
+
+<body>
+    <main>
+        <form action="">
+            <label>Rojo (R)</label>
+            <input type="range" min="0" max="255" value="255" id="RedField" />
+            <p id="RedText"></p>
+            <label>Verde (G)</label>
+            <input type="range" min="0" max="255" value="0" id="GreenField" />
+            <p id="GreenText"></p>
+            <label>Azul (B)</label>
+            <input type="range" min="0" max="255" value="0" id="BlueField" />
+            <p id="BlueText"></p>
+        </form>
+    
+    </main>
+    
+    <script src="../JS/pickcolor.js"></script>
 </body>
+
 </html>
