@@ -1,7 +1,5 @@
-
-const myBtn=document.querySelector("button");
-myBtn.addEventListener("click",()=>{
-    const userName=document.querySelector("#NameField");
-    document.querySelector("div").innerText=userName.value;
-    
+const miBtn=document.querySelector("button");
+miBtn.addEventListener("click",()=>{
+    const element=document.querySelector("#NameField");
+    document.querySelector("div").innerHTML="<H1>element.value</H1>";
 })
