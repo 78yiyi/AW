@@ -15,20 +15,20 @@
     TextoVerde.innerText=InputVerde.value;
     TextoAzul.innerText=InputAzul.value;
 
-InputRojo.addEventListener('change',()=>{
+InputRojo.addEventListener('input',()=>{
     rojo=InputRojo.value;
     TextoRojo.innerText=rojo;
     ActualizarColor(rojo, verde,azul);
 })
 
-InputVerde.addEventListener('click',()=>{
+InputVerde.addEventListener('input',()=>{
     verde=InputVerde.value;
     TextoVerde.innerText=verde;  
     ActualizarColor(rojo, verde,azul);
 
 })
 
-InputAzul.addEventListener('click',()=>{
+InputAzul.addEventListener('input',()=>{
     azul=InputAzul.value;
     TextoAzul.innerText=azul;     
     ActualizarColor(rojo, verde,azul);
