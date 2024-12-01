@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1em;
+    color: white;
+}
+.Container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(6,1fr);
+    grid-template-areas: "navbar navbar navbar navbar"
+                        "aside main main main"
+                        "aside main main main"
+                        "aside content1 content2 content3"
+                        "aside content1 content2 content3"
+                        "footer footer footer footer";
+    height: 100vh;
+    gap: 5px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+    border-radius: 10px;
+    grid-area: navbar;
+
+}
+main{
+    background-color: lightgray;
+    border-radius: 10px;
+    grid-area: main;
+    
+}
+aside{
+    background-color: greenyellow;
+    border-radius: 10px;
+    grid-area: aside;
+    
+}
+.content1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:grey;
+    border-radius: 10px;
+    grid-area: content1;
+}
+.content2{
+    background-color:grey;
+    border-radius: 10px;
+    grid-area: content2;
+}
+.content3{
+    background-color:grey;
+    border-radius: 10px;
+    grid-area: content3;
+}
+
+footer{
+    background-color: palevioletred;
+    border-radius: 10px;
+    grid-area: footer;
+
+}
+@media  (width<700px) {
+    
+    .Container{
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(7,1fr);        
+        grid-template-areas: "navbar navbar navbar navbar"
+                        "aside aside aside aside"
+                        "main main main main"
+                        "content1 content1 content1 content1"
+                        "content2 content2 content2 content2"
+                        "content3 content3 content3 content3"                        
+                        "footer footer footer footer";
+    }
+}
