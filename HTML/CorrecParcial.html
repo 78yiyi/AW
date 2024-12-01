@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/CorrecParcial.css">
+    
+</head>
+<body>
+    
+    <div class="ejer2">
+        <form>
+            <fieldset>
+                <legend id="Mylegend">Personal Details</legend>
+                  
+                <br>
+                <label for="Salution">Salution</label>
+
+                <select id="SalutionField">
+                  <option value="None" >None</option>
+                  <option value="Mr">Mr</option>
+                  <option value="Ms" selected>Ms</option>
+                </select>
+                <br><br>
+
+
+                First Name: &nbsp; &nbsp;
+                <input id="TextFieldName" type="text" /> <br /><br />
+                
+                Edad:&nbsp; &nbsp;<input id="AgeField" type="number" min="18" max="100" />
+                <br /><br />
+                Email: &nbsp; &nbsp;
+                <input id="EmailFieldName" type="email" required /> <br /><br />                
+                Date of birth: &nbsp; &nbsp;
+                <input type="date" placeholder="dd/mm/yyyy">
+                <br><br>
+                Gender: 
+                <input type="radio" name="sex" />Varón
+                <input type="radio" name="sex" />Mujer <br /><br />
+                <br /><br />                
+    
+                <input type="submit" id="SendButton" value="Envia Datos" /><br /><br />
+            </fieldset>
+        </form>
+    
+    </div>
+
+    
+
+
+    <div class="ejer3">
+        <table>
+            <tr>
+                <td>Horas</td>
+                <td>Lunes</td>
+                <td>Martes</td>
+                <td>Miércoles</td>
+                <td>Jueves</td>
+                <td>Viernes</td>
+            </tr>
+            <tr>
+                <td>8:00-9:00</td>
+                <td rowspan="2"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td rowspan="2"></td>
+            </tr>
+            <tr>
+                <td>9:00-10:00</td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td>10:00-10:30</td>
+                <td colspan="5"></td>
+            </tr>
+            <tr>
+                <td>10:30-11:30</td>
+                <td></td>
+                <td></td>
+                <td rowspan="2"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>12:30-13:30</td>
+                <td></td>
+                <td></td>
+                <td rowspan="2"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>13:30-14:30</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+<br><br><br>
+<nav>
+    <p>Inicio</p>
+    <p>Servicios</p>
+    <p>Catálogo</p>
+    <p>About us</p>
+    <p>Referencias</p>
+</nav>
+
+</body>
+</html>
