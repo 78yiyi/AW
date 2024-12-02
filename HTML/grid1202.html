@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/grid1202.css">
+</head>
+<body>
+    <div class="Container">
+        <nav>
+            1
+        </nav>
+        <aside>
+
+        </aside>
+        <main>
+
+        </main>
+        <div class="Content1">
+            <input type="button" value="Saluda" id="SalFieldBtn">
+        </div>
+        <div class="Content2">
+            <input type="button" value="Despide" id="DespFieldBtn">
+        </div>
+        <div class="Content3">
+            <input type="button" value="Despide" id="ResetFieldBtn">
+        </div>
+        <footer></footer>
+
+        <script>
+            const Mibtn1=document.getElementById("SalFieldBtn");
+            const Mibtn2=document.getElementById("DespFieldBtn");
+            const Mibtn3=document.getElementById("ResetFieldBtn");
+            Mibtn1.addEventListener("click", ()=>{
+                let layer=document.querySelector("Nav");
+                layer.innerHTML="Hola";
+            })
+            Mibtn2.addEventListener("click", ()=>{
+                let layer=document.querySelector("Nav");
+                layer.innerHTML="Adios";
+            })
+            Mibtn3.addEventListener("click", ()=>{
+                let layer=document.querySelector("Nav");
+                layer.innerHTML="";
+            })            
+        </script>
+    </div>
+
+
+
+</body>
+</html>
